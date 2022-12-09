@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Patterns",
+            "request": "launch",
+            "mainClass": "Patterns",
+            "projectName": "JavaPrograms_7a71c4ad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recursion1",
+            "request": "launch",
+            "mainClass": "Recursion1",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sorting",
+            "request": "launch",
+            "mainClass": "Sorting",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Random",
+            "request": "launch",
+            "mainClass": "Random",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringBuilder",
+            "request": "launch",
+            "mainClass": "stringBuilder",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch twoDArray",
+            "request": "launch",
+            "mainClass": "twoDArray",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Functions",
+            "request": "launch",
+            "mainClass": "Functions",
+            "projectName": "JavaPrograms_45d45fe8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Patterns",
+            "request": "launch",
+            "mainClass": "Patterns",
+            "projectName": "JavaPrograms_45d45fe8"
+        }
+    ]
+}
