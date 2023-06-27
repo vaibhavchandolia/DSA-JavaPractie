@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayLists {
     public static void main(String[] args) {
@@ -35,6 +36,10 @@ public class ArrayLists {
         for(int i =0; i<list.size(); i++){
             System.out.print(list.get(i));
         }
+
+        //sort array list
+        Collections.sort(list);
+        System.out.println(list);
 
     }
     

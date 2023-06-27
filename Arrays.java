@@ -11,6 +11,20 @@ public class Arrays {
            }
            System.out.println("Sorted");
     } */
+
+    public static int missing(int arr[]){
+        /* [1,4,7,9,3,2,5,0,6] */
+        int n=0;
+        for(int i=arr.length; i>0; i--){
+            for(int j=0; j<arr.length; i++){
+
+                if(arr[j]<1 && arr[j]==i){
+                    i=n;
+                }
+            }
+        }
+        return n;
+    }
     public static void main(String[] args) {
       /*  Scanner sc = new Scanner(System.in);
        int rows = sc.nextInt();
@@ -66,7 +80,7 @@ public class Arrays {
        else System.out.println("It is not a sparse matrix"); */
     
        //System.out.println(count);
-       int i=0;
+       /* int i=0;
        for(;;i++){
         System.out.println(i);
        }
@@ -74,7 +88,11 @@ public class Arrays {
     }
 
     public static void sort(int[] arr) {
-    }
+    } */
        
+       int arr[] = {1,2,3,4,5,6,0,8,9};
+       System.out.println(missing(arr));
+       
+}
 }
     
