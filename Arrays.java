@@ -12,8 +12,8 @@ public class Arrays {
            System.out.println("Sorted");
     } */
 
-    public static int missing(int arr[]){
-        /* [1,4,7,9,3,2,5,0,6] */
+    /*public static int missing(int arr[]){
+        *//* [1,4,7,9,3,2,5,0,6] *//*
         int n=0;
         for(int i=arr.length; i>0; i--){
             for(int j=0; j<arr.length; i++){
@@ -24,6 +24,22 @@ public class Arrays {
             }
         }
         return n;
+    }*/
+
+    public static void sumOfSecLargest(int arr []){
+        ArrayList <Integer> even = new ArrayList<Integer>();
+        ArrayList <Integer> odd = new ArrayList<Integer>();
+        for(int i=0; i<arr.length; i++){
+            if(i==0 || i%2==0) even.add(i);
+            else odd.add(i);
+        }
+        Collections.sort(even);
+        Collections.sort(odd);
+        int n = even.size();
+        int m = odd.size();
+        System.out.println(even.get(n-1)+odd.get(m-1));
+        System.out.println(even.get(n-1));
+        System.out.println(odd.get(m-1));
     }
     public static void main(String[] args) {
       /*  Scanner sc = new Scanner(System.in);
@@ -89,10 +105,13 @@ public class Arrays {
 
     public static void sort(int[] arr) {
     } */
-       
-       int arr[] = {1,2,3,4,5,6,0,8,9};
-       System.out.println(missing(arr));
-       
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();;
+        int[] arr = new int [n];
+        for(int i=0; i<n; i++){
+            arr[i] = sc.nextInt();
+        }
+        sumOfSecLargest(arr);
 }
 }
     
