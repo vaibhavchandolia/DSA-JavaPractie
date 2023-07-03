@@ -30,16 +30,14 @@ public class Arrays {
         ArrayList <Integer> even = new ArrayList<Integer>();
         ArrayList <Integer> odd = new ArrayList<Integer>();
         for(int i=0; i<arr.length; i++){
-            if(i==0 || i%2==0) even.add(i);
-            else odd.add(i);
+            if(i%2==0) even.add(arr[i]);
+            else odd.add(arr[i]);
         }
         Collections.sort(even);
         Collections.sort(odd);
         int n = even.size();
         int m = odd.size();
-        System.out.println(even.get(n-1)+odd.get(m-1));
-        System.out.println(even.get(n-1));
-        System.out.println(odd.get(m-1));
+        System.out.println(even.get(n-2)+odd.get(m-2));
     }
     public static void main(String[] args) {
       /*  Scanner sc = new Scanner(System.in);
